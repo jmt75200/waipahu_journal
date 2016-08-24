@@ -7,23 +7,55 @@
   <body>
     <!-- This is my first comment -->
     <header>
-      <h1>HELLO WORLD</h1>
+      <h1>Mogwai Tavern</h1>
+      <h4>Tan2111 My Journal</h4>
       <img src="https://avatars1.githubusercontent.com/u/5171518?v=3&s=460" >
     </header><!-- header-->
-    <h2>My first Entry</h2>
-    <h6>Aug 15</h6>
-    <div><!-- I'm a parent-->
-      <h3>Why I took this Class</h3>
-      <!-- I'm a child -->
-      <p>
-        Because I am interested in <b>inline element</b>.
-      </p>
-    </div>
-    <div>
-      <h3>What I want to get out of this class</h3>
-      <p>
-        To <span>code</span> all the things
-      </p>
+    <div class="container">
+      <div class="aside">
+        <h5>Blog</h5>
+        <nav>
+          <ul>
+            <li>
+              <a href="#first">My First Blog Entry</a>
+            </li>
+            <li>
+              <a href="#">HTML &amp; CSS</a>
+            </li>            
+            <li>
+              <a href="#">Javascript</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="first" class="content">
+        <h2>My first Blog Entry</h2><!--title-->
+        <h6>Aug 15</h6><!--date-->
+        <div class="article"><!-- I'm a parent-->
+          <h3>Why I took this Class</h3>
+          <!-- I'm a child -->
+          <p>
+            Because I am interested in <b>inline element</b>.
+          </p>
+        </div>
+        <div class="article">
+          <h3>What I want to get out of this class</h3>
+          <p>
+            To <span class="highlight">code</span> all the things
+          </p>
+        </div>
+      </div>
+      <div id="second" class="content">
+        <h2>UX vs UI</h2>
+        <h6>Aug 24, 2016</h6>
+        <div class="article">
+          <h3>Difference Between UX and UI</h3>
+          <p>
+            UX stands for User Experience...
+          </p>
+          <p>UI stands for User Interface...</p>
+        </div>
+      </div>
     </div>
     <footer>
       <p>copyright</p>
